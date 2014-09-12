@@ -1,0 +1,22 @@
+.article-one {
+    padding-top: 20px;
+}
+.article-one h6{
+	padding-left:30%;
+}
+.article-one .tips{
+	display:block;
+	margin-left:95px;
+	line-height:16px;
+	height:16px;
+}
+.article-two .demo{
+	
+}
+.article{
+	margin-bottom:40px;
+}
+.footer {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}

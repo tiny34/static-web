@@ -1,0 +1,9 @@
+{
+  "name": "static-web",
+  "description": "",
+  "version": "1.0.0",
+  "private": false,
+  "dependencies": {
+    "express": ""
+  }
+}
