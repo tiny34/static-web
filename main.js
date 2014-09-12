@@ -39,7 +39,7 @@ function getPath(req){
 	return filePath;
 	
 };
-function error(){
+function error(res){
 	var path = config.getPath() + config['error.page.500'];
 	fs.readFile(path, function (err, data) {
 		if(err){
@@ -58,7 +58,7 @@ app.get('*', function(req, res){
 	
 	fs.readFile(filePath,function(err,data){
 		if(err){
-			error();
+			error(res);
 		}else{
 			var type = getType(filePath);
 			res.set('content-type',type + ';charset=UTF-8');
