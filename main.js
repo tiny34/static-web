@@ -55,7 +55,6 @@ function error(res){
 app.get('*', function(req, res){
 	
 	var filePath = getPath(req);
-	
 	fs.readFile(filePath,function(err,data){
 		if(err){
 			error(res);
